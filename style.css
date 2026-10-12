@@ -1,0 +1,189 @@
+/* ==========================================================
+   EXERCICE CSS — Restaurant Teranga
+   ----------------------------------------------------------
+   Nom / Prénom : ..........................................
+
+   RÈGLES :
+   - Tu NE modifies PAS le fichier index.html
+   - INTERDIT : display: flex et display: grid
+   - Autorisé : display (block, inline, inline-block, none),
+     float, position, margin, padding, width, text-align...
+   - Complète chaque bloc là où tu vois "TODO"
+   ========================================================== */
+
+
+/* ----------------------------------------------------------
+   PARTIE 1 — Réglages généraux (2 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 1.1 : Sur TOUS les éléments, fais en sorte que
+   padding et border soient inclus dans la largeur (box-sizing). */
+* {
+
+}
+
+/* TODO 1.2 : Sur le body :
+   - supprime la marge par défaut
+   - police : Arial, sans-serif
+   - couleur de fond : #fdf6ec
+   - couleur du texte : #333
+   - interligne : 1.6 */
+body {
+
+}
+
+
+/* ----------------------------------------------------------
+   PARTIE 2 — L'en-tête (4 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 2.1 : En-tête avec fond #2c3e50, texte blanc,
+   padding de 20px, texte centré. */
+.entete {
+
+}
+
+/* TODO 2.2 : Le logo : taille 36px, couleur #e67e22,
+   marge du haut à 0, lettres espacées de 3px, tout en MAJUSCULES
+   (indice : text-transform). */
+.logo {
+
+}
+
+/* TODO 2.3 : Les liens du menu doivent être côte à côte
+   SANS flexbox (indice : inline-block).
+   Couleur blanche, pas de soulignement, padding 8px 16px,
+   coins arrondis de 20px. */
+.menu a {
+
+}
+
+/* TODO 2.4 : Au survol d'un lien du menu, fond #e67e22. */
+
+
+/* TODO 2.5 : Le lien avec la classe "actif" a un fond #e67e22
+   et le texte en gras. */
+
+
+
+/* ----------------------------------------------------------
+   PARTIE 3 — Le conteneur et l'intro (3 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 3.1 : Le conteneur fait 90% de large, maximum 1000px,
+   et il est CENTRÉ horizontalement (indice : margin auto). */
+.conteneur {
+
+}
+
+/* TODO 3.2 : L'intro : texte centré, fond blanc, padding 30px,
+   marge en haut de 30px, coins arrondis 10px,
+   ombre légère (box-shadow). */
+.intro {
+
+}
+
+/* TODO 3.3 : Le bouton : affiché en inline-block, fond #e67e22,
+   texte blanc, pas de soulignement, padding 12px 30px,
+   coins arrondis 5px. */
+.bouton {
+
+}
+
+/* TODO 3.4 : Au survol du bouton, fond #d35400. */
+
+
+
+/* ----------------------------------------------------------
+   PARTIE 4 — Les cartes de plats (6 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 4.1 : Le titre de section : centré, couleur #2c3e50,
+   bordure basse de 3px solide #e67e22.
+   (Bonus : la bordure ne doit pas faire toute la largeur
+   → indice : display inline-block sur le titre... et le parent centré) */
+.titre-section {
+
+}
+
+/* TODO 4.2 : Les 3 cartes doivent être sur la MÊME LIGNE
+   SANS flexbox ni grid.
+   - display inline-block
+   - largeur 31%
+   - alignement vertical en haut (vertical-align)
+   - fond blanc, padding 15px, coins arrondis 10px
+   - une petite marge entre les cartes
+   - texte aligné à gauche
+   - position relative (nécessaire pour le badge !) */
+.carte {
+
+}
+
+/* TODO 4.3 : Les images des cartes prennent 100% de la largeur
+   de la carte et ont des coins arrondis de 8px. */
+.carte img {
+
+}
+
+/* TODO 4.4 : Le prix : en gras, couleur #e67e22, taille 20px. */
+.prix {
+
+}
+
+/* TODO 4.5 : Le badge doit être placé EN HAUT À DROITE de la carte,
+   par-dessus l'image (indice : position absolute + top + right).
+   Fond #c0392b, texte blanc, taille 12px, padding 4px 10px,
+   coins arrondis 12px. */
+.badge {
+
+}
+
+/* TODO 4.6 : Au survol d'une carte, elle remonte de 5px
+   (transform: translateY) avec une transition douce. */
+
+
+
+/* ----------------------------------------------------------
+   PARTIE 5 — Le mot du chef (3 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 5.1 : La section chef : fond blanc, padding 25px,
+   marge en haut 30px, coins arrondis 10px.
+   ATTENTION : l'image flottante va "déborder" de la section.
+   Trouve une propriété pour que la section englobe l'image
+   (indice : overflow ou display: flow-root). */
+.chef {
+
+}
+
+/* TODO 5.2 : La photo du chef flotte à GAUCHE du texte,
+   avec une marge droite de 20px et elle est RONDE
+   (border-radius 50%). */
+.photo-chef {
+
+}
+
+/* TODO 5.3 : La signature : alignée à droite, en italique. */
+.signature {
+
+}
+
+
+/* ----------------------------------------------------------
+   PARTIE 6 — Pied de page (2 pts)
+   ---------------------------------------------------------- */
+
+/* TODO 6.1 : Pied de page : fond #2c3e50, texte #bdc3c7,
+   centré, padding 20px, marge en haut 40px, taille 14px. */
+.pied {
+
+}
+
+
+/* ----------------------------------------------------------
+   BONUS (+2 pts)
+   ---------------------------------------------------------- */
+
+/* BONUS : Sur un écran de moins de 700px (media query),
+   les cartes prennent toute la largeur (une par ligne)
+   et les liens du menu passent en display block. */
